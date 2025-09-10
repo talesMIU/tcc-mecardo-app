@@ -79,7 +79,13 @@ const SubmitButton = styled(Button)(({ theme }) => ({
   borderRadius: '8px',
 }));
 
-export default function SignIn({ onSignIn }) {
+export default function SignIn() {
+  const handleSignIn = () => {
+    const fakeToken = 'abc123'; // no TCC você pode explicar que seria um JWT real
+    sessionStorage.setItem('authToken', fakeToken);
+    window.dispatchEvent(new CustomEvent('user-signed-in'));
+  };
+
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -118,7 +124,7 @@ export default function SignIn({ onSignIn }) {
           <SubmitButton
             type="submit"
             fullWidth
-            onClick={onSignIn}
+            onClick={handleSignIn}
           >
             Sign In
           </SubmitButton>
