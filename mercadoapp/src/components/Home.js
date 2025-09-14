@@ -25,15 +25,15 @@ function Copyright() {
 
 // Agora cards tem id, title e description
 const cards = [
-  { id: 1, title: 'Resumo', description: 'Descrição do card 1' },
-  { id: 2, title: 'Card 2', description: 'Descrição do card 2' },
-  { id: 3, title: 'Card 3', description: 'Descrição do card 3' },
-  { id: 4, title: 'Card 4', description: 'Descrição do card 4' },
-  { id: 5, title: 'Card 5', description: 'Descrição do card 5' },
-  { id: 6, title: 'Card 6', description: 'Descrição do card 6' },
-  { id: 7, title: 'Card 7', description: 'Descrição do card 7' },
-  { id: 8, title: 'Card 8', description: 'Descrição do card 8' },
-  { id: 9, title: 'Card 9', description: 'Descrição do card 9' },
+  { id: 1, title: 'Resumo', description: `Este trabalho investiga a adoção da arquitetura de micro-frontends em organizações do setor financeiro, com foco nas questões de segurança e nas boas práticas associadas a essa abordagem. Inspirada nos princípios dos microsserviços, a arquitetura de micro-frontends permite a divisão da interface de usuário em módulos independentes, promovendo modularidade, escalabilidade e maior autonomia entre equipes de desenvolvimento. Entretanto, em ambientes financeiros, caracterizados por elevados requisitos de segurança, compliance e integração com sistemas legados, surgem desafios adicionais que demandam atenção especial.
+A pesquisa adota como metodologia a revisão bibliográfica de artigos científicos e livros que tratam de micro-frontends, segurança em arquiteturas distribuídas e padrões de engenharia de software. Complementarmente, realiza-se um estudo de caso prático com a implementação de um projeto desenvolvido pelo autor, no qual são analisados os aspectos de segurança aplicados e as boas práticas utilizadas durante o processo.
+Os resultados esperados incluem a sistematização de práticas recomendadas para garantir a proteção de dados e a conformidade regulatória, bem como a identificação de estratégias arquiteturais que favoreçam a resiliência e a manutenção em ambientes críticos. Dessa forma, este estudo contribui para ampliar a compreensão sobre o uso seguro de micro-frontends em setores altamente regulados, oferecendo subsídios teóricos e práticos para profissionais e pesquisadores da área.
+` },
+  { id: 2, title: 'Abstract', description: `This study investigates the adoption of micro-frontend architecture in financial sector organizations, focusing on security issues and best practices associated with this approach. Inspired by the principles of microservices, micro-frontend architecture enables the division of the user interface into independent modules, promoting modularity, scalability, and greater autonomy among development teams. However, in financial environments, characterized by high security requirements, compliance demands, and integration with legacy systems, additional challenges arise that require special attention.
+The research methodology is based on a literature review of scientific articles and books addressing micro-frontends, security in distributed architectures, and software engineering patterns. Additionally, a practical case study is conducted with a project developed by the author, analyzing the security aspects applied and the best practices adopted throughout the process.
+The expected results include the systematization of recommended practices to ensure data protection and regulatory compliance, as well as the identification of architectural strategies that foster resilience and maintainability in critical environments. Thus, this study contributes to broadening the understanding of the secure use of micro-frontends in highly regulated sectors, providing both theoretical and practical insights for professionals and researchers in the field.`  },
+  { id: 3, title: 'Palavras Chave', description: `micro-frontends; segurança de software; boas práticas; setor financeiro; arquitetura de sistemas.`  },  
+  { id: 4, title: 'Key Words', description: 'micro-frontends; software security; best practices; financial sector; systems architecture.' },
 ];
 
 export default function Home() {
