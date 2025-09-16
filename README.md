@@ -2,7 +2,7 @@ TCC - Microfrontend no mercado financeiro
 
 Como rodar o app:
 
-1- Baixar para um repo local. exemplo git clone 
+1- Baixar para um repo local. exemplo git clone https://github.com/talesMIU/tcc-mecardo-app.git
 
 2- Instalar cada um dos mfes, dentro da pasta root:
 
